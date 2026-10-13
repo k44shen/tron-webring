@@ -5,32 +5,28 @@
       "website": "https://wangdynasty.ca",
       "url": "wangdynasty.ca",
       "class": "Class of 2030",
-      "description": "pulling an all nighter",
-      "icon": ""
+      "description": "pulling an all nighter"
     },
     {
       "name": "eric wu",
       "website": "https://ericwu.work",
       "url": "ericwu.work",
       "class": "Class of 2030",
-      "description": "",
-      "icon": ""
+      "description": ""
     },
     {
       "name": "sean chan-sato",
       "website": "https://seanchansato.work",
       "url": "seanchansato.work",
       "class": "Class of 2030",
-      "description": "",
-      "icon": ""
+      "description": ""
     },
     {
       "name": "gavin tranquilino",
       "website": "https://gavintranquilino.com",
-      "url": "gavintranquilino.com ",
+      "url": "gavintranquilino.com",
       "class": "Class of 2028",
-      "description": "i make silly things 🐼",
-      "icon": "/icons/gavintranquilino.png"
+      "description": "i make silly things 🐼"
     }
   ]
 }

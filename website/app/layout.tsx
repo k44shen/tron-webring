@@ -1,22 +1,7 @@
 import type { Metadata } from "next";
-import { Instrument_Serif, IBM_Plex_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import members from "@/data/members.json";
-
-const instrumentSerif = Instrument_Serif({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-instrument-serif",
-  display: "swap",
-});
-
-const ibmPlexMono = IBM_Plex_Mono({
-  weight: ["400", "500", "600"],
-  subsets: ["latin"],
-  variable: "--font-ibm-plex-mono",
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Tron Ring",
@@ -83,11 +68,11 @@ export default function RootLayout({
   `;
 
   return (
-    <html lang="en" className={`${instrumentSerif.variable} ${ibmPlexMono.variable}`}>
+    <html lang="en">
       <head>
         <script dangerouslySetInnerHTML={{ __html: navScript }} />
       </head>
-      <body className="font-sans bg-dark text-light overflow-x-hidden">
+      <body className="font-serif text-[17px] bg-dark text-light antialiased">
         {children}
         <Analytics />
       </body>

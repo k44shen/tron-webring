@@ -14,9 +14,9 @@ This site supports prev/next navigation via URL hash routing (see the widget tem
 
 1. Add the webring widget to your site (template below). Put it in your footer or about page.
 2. Fork this repo.
-4. Add your info to `website/data/members.json` at the bottom of `sites[]`.
-5. Make a commit, and push the commit to your fork.
-6. Open a Pull Request.
+3. Add your info to `website/data/members.json` at the bottom of `sites[]`.
+4. Make a commit, and push the commit to your fork.
+5. Open a Pull Request.
 
 ### Entry format
 
@@ -26,12 +26,11 @@ This site supports prev/next navigation via URL hash routing (see the widget tem
   "website": "https://your-site.com",
   "url": "your-site.com",
   "class": "Class of 20XX",
-  "description": "something cool about you",
-  "icon": "/icons/your-name.png"
+  "description": "One plain sentence about what you're building."
 }
 ```
 
-`description` and `icon` are optional — leave them as `""` to skip. If `icon` is set, it replaces the default initials badge on your row. Upload your icon to `website/public/icons/` (square, ideally 64x64 or larger).
+`description` is optional; leave it as `""` to skip. Keep it to one plain sentence about what you're working on, under about 80 characters, with no emoji. For example: "Building tendon-driven robot hands."
 
 ## Widget Template
 
